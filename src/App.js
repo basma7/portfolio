@@ -1,15 +1,13 @@
+import { Suspense } from 'react';
 import './App.css';
 import Routing from './Routing'
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>hello world</p>
-        <Routing />
-      </header>
+      <Routing />
     </div>
   );
 }
 
-export default App;
+
