@@ -5,7 +5,7 @@ import { Navbar, Nav } from 'react-bootstrap'
 export default function Header() {
   return (
     <Navbar>
-      <Navbar.Brand href="#home">Navbar with text</Navbar.Brand>
+      <Navbar.Brand href="#home">Ibtissem rezig</Navbar.Brand>
       <Navbar.Toggle />
       <Navbar.Collapse className="justify-content-end">
         <Nav>
