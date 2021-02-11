@@ -7,7 +7,8 @@ import {
 import Loading from './components/Reusable/Loading';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
-import Header from './components/Header'
+import Project from './components/Project';
+import Header from './components/Header';
 export default function Routing() {
 
   return (
@@ -17,6 +18,7 @@ export default function Routing() {
           <Header />
           <Route path="/portfolio" component={Portfolio} />
           <Route path="/resume" component={Resume} />
+          <Route path="/project" component={Project} />
         </Suspense>
       </Switch>
     </Router>

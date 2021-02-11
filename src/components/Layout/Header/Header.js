@@ -11,7 +11,7 @@ export default function Header() {
         <Nav>
           <Nav.Link href="/resume">Resume</Nav.Link>
           <Nav.Link href="#home">Books Talk</Nav.Link>
-          <Nav.Link href="#features">Coding Project</Nav.Link>
+          <Nav.Link href="/project">Coding Project</Nav.Link>
           <Nav.Link href="#pricing">About</Nav.Link>
         </Nav>
       </Navbar.Collapse>
