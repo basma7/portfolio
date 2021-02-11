@@ -1,4 +1,4 @@
-import { Suspense } from 'react';
+import React from 'react';
 import './App.css';
 import Routing from './Routing'
 
