@@ -1,0 +1,22 @@
+.resume {
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+
+  .profile-img{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    margin: 50px;
+  }
+
+  .resume-txt {
+    margin: 50px;
+    .hey-txt {
+      font-weight: 600;
+      font-size: 22px;
+    }
+  }
+}

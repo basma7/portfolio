@@ -9,9 +9,10 @@ export default function Header() {
       <Navbar.Toggle />
       <Navbar.Collapse className="justify-content-end">
         <Nav>
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#features">Features</Nav.Link>
-          <Nav.Link href="#pricing">Pricing</Nav.Link>
+          <Nav.Link href="/resume">Resume</Nav.Link>
+          <Nav.Link href="#home">Books Talk</Nav.Link>
+          <Nav.Link href="#features">Coding Project</Nav.Link>
+          <Nav.Link href="#pricing">About</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
